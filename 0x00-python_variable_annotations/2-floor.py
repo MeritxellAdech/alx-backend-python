@@ -3,11 +3,11 @@
 import math
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """Rounds n to its whole number
     args
         n:float - the given number
     Return
         The whole number in n
     """
-    return (math.floor(n))
+    return math.floor(n)
