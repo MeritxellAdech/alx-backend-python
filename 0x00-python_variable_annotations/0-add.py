@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """ This module implements a basic annotations on a function and its args"""
 
 
@@ -9,4 +9,4 @@ def add(a: float, b: float) -> float:
         b:float - second number
     Return
         The sum of a and b as float"""
-    return a + b
+    return (a + b)
