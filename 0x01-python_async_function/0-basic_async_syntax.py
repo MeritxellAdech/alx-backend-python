@@ -5,7 +5,7 @@ from random import uniform
 
 
 async def wait_random(max_delay=10):
-    """Generate a random value and returns it
+    """Generate a random value from max_delay and waits for that amount of time
     Args
         max_delay:float
         The mazimum amount of time wait_random whould delay
