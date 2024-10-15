@@ -4,7 +4,7 @@ import asyncio
 from random import uniform
 
 
-async def wait_random(max_delay=10):
+async def wait_random(max_delay:float=10):
     """Generate a random value from max_delay and waits for that amount of time
     Args
         max_delay:float
@@ -12,6 +12,6 @@ async def wait_random(max_delay=10):
     Return
         The actual amount of time delayed
     """
-    time = uniform(0, max_delay)
+    time:float = uniform(0, max_delay)
     await asyncio.sleep(time)
     return time
